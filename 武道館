@@ -1,0 +1,111 @@
+>Week 1 
+
+**Problem Solver**
+Tech is just a tool for **Data Scientist**, be ready to learn anything new.
+Assignment is about learning, learning to think.
+Industry only care about what you did in industry.
+Data > Model
+业界并不在意你什么背景, 只要能做事儿就行
+Monday soft skills day
+
+- [ ] scala 101  / cognitive class  (screen shot)
+- [ ] python 101 / codeacadamy 
+- [ ] bash / codeacadamy
+- [ ] git / codeacadamy
+- [ ] starwars/pokemon API friday 
+- [ ] scala IntelliJ	
+- [ ] bash_profile
+- [ ] Cloud ML Engine
+- [ ]  Gcloud / Datalab setup
+
+**Weekly Core Fundamental Assignment**:
+Codesignal (15 screenshots): 
+
+- [ ] 5 python
+- [ ] 5 scala
+- [ ] 5 SQL
+- [ ] 2  Stackflow
+
+Interview: lost of practice. project presentation & resume validation
+rate problem: always talk about that later
+
+**09.28 classnotes**
+- UNIX Shell
+Heart of interaction of computer: read evaluate print loop (REPL):
+`$ pwd`
+`$ ls -help`
+`$ man ls`
+`$ ls lit`
+`$ ls -F`
+`$ wget http://`
+`$ touch something.sh`
+`$ bash something.sh`
+`$ cat ~/.bash_profile`
+`$ source ~/.bash_profile`
+
+```python
+`%% bash  #jupyter
+ls
+```
+data shoulde be stored in GCP storage bucket
+以后要用 data 也要 load data from the bucket
+
+- Automation
+sample assay machine measuring relative protein concontation for the machine, the machine output file for each protein
+cal some state on each of the proteins
+we want to use a program some else wrote 
+prostats
+writeup the result in some report
+
+- Summary for the intro
+shell is a program who read command to run other program
+main advantage of the sheel over GUI are taht it alos, auto repetive task, network capacity
+
+- Navigate files and dir
+the root directory hold everything else, we can refer to it with `/`
+home directory hold are profile files, we can refer to it with `~/`
+
+
+>Week 2 
+
+Presentaion:
+- no screen shot of data / no table
+- never show a figure
+-  solid background introduction / why is your work important (why current platform fail) first
+- put company's name on it
+- out number on it
+-  better way of describing data visually
+- slow down
+
+when can i hear back
+
+Mock questions:
+- what you been doing these years?
+- machine learning model, how you actually did that?
+- collaborating with others
+- deployment
+- train a model, before and after 
+- architecture difference
+- spark model used
+- machine learning framework
+- dont let it be an interrogation
+
+
+>Week 3
+>Week 4 
+>Week 5 
+>Week 6 
+>Week 7 
+>Week 8 
+>Week 9 
+>Week 10 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3MDAzODI3ODMsLTc2MDY4MDY4NiwtNj
+AxNjM4ODkwLDE2MzA1MDg0NjksLTE5NzI4OTQyMDMsLTcwMzUy
+NjYyLDE0MzAzMTY2MjEsLTIxMjcxMjk1MzYsLTEwMjM4MTAwNj
+gsLTgzMzg0MjIwOSwtMTkxOTY1OTExOCwtODA4MzUxMDg2LDEz
+NzgyMjcyMDMsLTk4MjA5Mjk2MSw2NDA0NTcyMTQsNDkzOTk0NT
+EyLC01MzYyNjM5MzIsNTYzOTAzODcsNjY2NzI3NTgwLC0yMTQ3
+MzQ5MTQ5XX0=
+-->
