@@ -15,7 +15,8 @@ R(w) = lambda * (|theta1|^p1 + |theta1|^p2 + |theta1|^p3 + ... )  lambda: regula
 
 but today, we are not gonna just add R(w)
 we see this as a optimization problem: J(theta) = min[(y-y_bar)^2    s.t R(w)<c^2, there always is a c
-beta1, beta2 two dimensional graph
+beta1, beta2 two dimensional graph, betas are constrained in the gray area, to approach global minimize cost as near as possible, it is on the eage	
+when lambda is so big, weight coefficients go towards zero
 
 J(theta) = F(theta0, theta1, theta2 ... lambda) = min[(y-y_bar)^2 + lambda * (sum(theta^p)-c^2)    take derivative try lambda, find best combination of thetas
 
