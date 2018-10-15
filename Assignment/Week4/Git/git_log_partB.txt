@@ -1,0 +1,109 @@
+commit b3dc380fdf5caa1c1b6d1c87cf290a4d85f3cc0b
+Author: John Doe <darken.vi@hotmail.com>
+Date:   Mon Oct 15 10:55:35 2018 -0400
+
+    Re-adding file2.txt
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..d0ef750
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++expected job : data scientist
+
+commit cdffe785ad4861a96a6742fd506b6a04b066dc93
+Author: John Doe <darken.vi@hotmail.com>
+Date:   Mon Oct 15 10:51:23 2018 -0400
+
+    Deleting file2.txt
+
+diff --git a/file1.txt b/file1.txt
+index 128aff3..53d8fec 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,5 +1,5 @@
+ name:dave
+ major: math
+ my fav restaurant: ctown
+-my fav colorL purple
++my fav color purple
+ 
+diff --git a/file2.txt b/file2.txt
+deleted file mode 100644
+index d0ef750..0000000
+--- a/file2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-expected job : data scientist
+
+commit 83c961a50f5c5fd6d5ba3bc972ccadf93cbdd5a9
+Author: John Doe <darken.vi@hotmail.com>
+Date:   Mon Oct 15 10:48:57 2018 -0400
+
+    add file2
+
+diff --git a/file1.txt b/file1.txt
+index cc064af..128aff3 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,5 +1,5 @@
+ name:dave
+ major: math
+ my fav restaurant: ctown
+-
++my fav colorL purple
+ 
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..d0ef750
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++expected job : data scientist
+
+commit bc5cd2caac22af668b0fb24588eabc0aa6fec954
+Author: John Doe <darken.vi@hotmail.com>
+Date:   Mon Oct 15 10:13:48 2018 -0400
+
+    Added fav restaurant and movie
+
+diff --git a/file1.txt b/file1.txt
+index 4f3a55f..cc064af 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,2 +1,5 @@
+ name:dave
+ major: math
++my fav restaurant: ctown
++
++
+
+commit 60e8919309cb1195711927abae7612de6f2fdc44
+Author: John Doe <darken.vi@hotmail.com>
+Date:   Mon Oct 15 10:09:51 2018 -0400
+
+    Now has my major
+
+diff --git a/file1.txt b/file1.txt
+index 54be1fd..4f3a55f 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1,2 @@
+-name:dave,ID:7777
++name:dave
++major: math
+
+commit 239ebca0a13278710c1852bb4a6055bd4b2f0219
+Author: John Doe <darken.vi@hotmail.com>
+Date:   Mon Oct 15 09:49:21 2018 -0400
+
+    Committing a new file with my name
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..54be1fd
+--- /dev/null
++++ b/file1.txt
+@@ -0,0 +1 @@
++name:dave,ID:7777
