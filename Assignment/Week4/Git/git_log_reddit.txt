@@ -1,0 +1,39 @@
+commit 1b66f1caedfb4e8fcdeadbce4f37f005b4ab409d
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Tue Feb 28 16:25:42 2017 -0800
+
+    setup_cassandra: Increase the per-thread stack size
+    
+    This used to be set to 256k in cassandra version 1.2.19, but we
+    recently downgraded to version 1.2.11 where it's set too low.
+
+commit a09f43c9bcef27a4d809e25ba7b0de406aa21491
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Tue Feb 28 13:14:59 2017 -0800
+
+    reddit.sh: Install plugins before attempting first startup
+    
+    This lets Cassandra CFs in the plugins get created at the same time,
+    avoiding some weird conflict or race condition.
+
+commit 67338d58fba2bc7d9e8cc4a5a960711ddb42a834
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Tue Feb 28 14:24:54 2017 -0800
+
+    Use the default packaged mcrouter instance for local installs
+
+commit 864681b8c92e718c936935568ca4920e32ea1783
+Author: Brian Simpson <bsimpson63@gmail.com>
+Date:   Sun Feb 19 18:55:45 2017 -0800
+
+    Randomize scores of all top level comments for shuffle sort
+    
+    This will ensure that all top level comments are considered for
+    display. It also makes it more clear that the sorting of child
+    comments is uneffected.
+
+commit 33a8b4be0fa2e3c56aecd098518eb9b1246d37ae
+Author: Ricky Ramirez <rram@reddit.com>
+Date:   Wed Feb 15 14:39:07 2017 -0800
+
+    Ignore IDN decoding errors.
